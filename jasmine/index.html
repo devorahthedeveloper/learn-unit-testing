@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.1.2</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.1.2/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-2.1.2/jasmine.css">
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="lib/jasmine-2.1.2/jasmine.js"></script>
+  <script src="lib/jasmine-2.1.2/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.1.2/boot.js"></script>
+  <script src="lib/jasmine-jquery-master/lib/jasmine-jquery.js"></script>
+  <script src="lib/jasmine-fixture-master/dist/jasmine-fixture.js"></script>
+
+
+  <!-- include source files here... -->
+  <script src="src/Devorah.js"></script>
+  <script src="src/Calculator.js"></script>
+  <script src="src/Player.js"></script>
+  <script src="src/Song.js"></script>
+
+  <!-- include spec files here (these are the Jasmine tests)... -->
+  <script src="spec/CalcSpec.js"></script>
+  <script src="spec/DevorahSpec.js"></script>
+  <script src="spec/SpecHelper.js"></script>
+  <script src="spec/PlayerSpec.js"></script>
+
+
+  <!-- 
+	recommended directory structure:
+	Project root:
+
+	Scripts:
+		Module1
+			Source1.js
+		Module2
+			Source2.js
+
+	Tests:
+		libs
+		Module1
+			Source1Spec.js
+		Module2
+			Source2Spec.js
+   -->
+
+</head>
+
+<body>
+	<div id="dollFixture">some content</div>
+	<div id="container"></div>
+</body>
+</html>

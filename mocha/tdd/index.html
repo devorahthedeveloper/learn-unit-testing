@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mocha</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../mocha.css" />
+</head>
+<body>
+	<div id="mocha"></div>
+	<script src="../mocha.js"></script>	
+	<script src="../chai.js"></script>
+	<script>
+		mocha.setup('tdd');
+		expect = chai.expect;
+	</script>
+	<script src="tests.js"></script>
+	<script>
+		mocha.run();
+	</script>
+
+	<!-- 
+		Popular assertion libraries:
+		YUI port
+		expect.js
+		should.js
+		jshould.js
+		assert.js
+		chai.js
+
+		// CHAI supports three assertion syntaxes:
+		//assert
+		var assert = chai.assert
+		
+		// expect
+		var expect = chai.expect;
+		expect(myVar).to.equal(3);
+		expect(myVar).to.be.a('string');
+
+		// should (has some issues with IE)
+		var should = chai.should():
+	-->
+</body>
+</html>

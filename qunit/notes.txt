@@ -1,0 +1,15 @@
+
+
+Organization of tests:
+folders
+---- files
+-------- modules
+
+Files and folders for tests should mimic files and folders for code
+
+---------------------
+
+
+SUT = system under test
+
+Selenium is good for UI tests. Qunit is not good for this.
